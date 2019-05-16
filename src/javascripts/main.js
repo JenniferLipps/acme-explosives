@@ -1,3 +1,8 @@
 import '../styles/main.scss';
+import categories from './categories/categories';
 
-console.error('working');
+const init = () => {
+  categories.initCategories();
+};
+
+init();
